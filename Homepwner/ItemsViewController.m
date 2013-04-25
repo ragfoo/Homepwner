@@ -10,4 +10,20 @@
 
 @implementation ItemsViewController
 
+- (id)init
+{
+    //call des initializer
+    self = [super initWithStyle:UITableViewStyleGrouped];
+    if (self) {
+        
+    }
+return self;
+}
+
+- (id)initWithStyle:(UITableViewStyle)style
+{
+    return [self init];
+}
+
+
 @end

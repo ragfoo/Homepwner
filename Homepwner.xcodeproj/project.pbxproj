@@ -17,6 +17,7 @@
 		954B64391728B45C00D9FC55 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 954B64381728B45C00D9FC55 /* Default@2x.png */; };
 		954B643B1728B45C00D9FC55 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 954B643A1728B45C00D9FC55 /* Default-568h@2x.png */; };
 		955F7B121728B6DC00FBD1B5 /* ItemsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 955F7B111728B6DC00FBD1B5 /* ItemsViewController.m */; };
+		955F7B161728BCD800FBD1B5 /* BNRItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 955F7B151728BCD800FBD1B5 /* BNRItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,8 @@
 		954B643A1728B45C00D9FC55 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		955F7B101728B6DC00FBD1B5 /* ItemsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemsViewController.h; sourceTree = "<group>"; };
 		955F7B111728B6DC00FBD1B5 /* ItemsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemsViewController.m; sourceTree = "<group>"; };
+		955F7B141728BCD800FBD1B5 /* BNRItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRItem.h; sourceTree = "<group>"; };
+		955F7B151728BCD800FBD1B5 /* BNRItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,8 @@
 			children = (
 				954B64331728B45C00D9FC55 /* HomepwnerAppDelegate.h */,
 				954B64341728B45C00D9FC55 /* HomepwnerAppDelegate.m */,
+				955F7B141728BCD800FBD1B5 /* BNRItem.h */,
+				955F7B151728BCD800FBD1B5 /* BNRItem.m */,
 				954B642B1728B45C00D9FC55 /* Supporting Files */,
 				955F7B101728B6DC00FBD1B5 /* ItemsViewController.h */,
 				955F7B111728B6DC00FBD1B5 /* ItemsViewController.m */,
@@ -173,6 +178,7 @@
 				954B64311728B45C00D9FC55 /* main.m in Sources */,
 				954B64351728B45C00D9FC55 /* HomepwnerAppDelegate.m in Sources */,
 				955F7B121728B6DC00FBD1B5 /* ItemsViewController.m in Sources */,
+				955F7B161728BCD800FBD1B5 /* BNRItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
