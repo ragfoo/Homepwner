@@ -19,8 +19,12 @@
     //new itemsViewController
     ItemsViewController *itemsViewController = [[ItemsViewController alloc]init];
     
+    
+    //create a navigation controller
+    UINavigationController *navController = [[UINavigationController alloc]initWithRootViewController:itemsViewController];
+    
     //add view controller to hierarchy
-    [[self window] setRootViewController:itemsViewController];
+    [[self window] setRootViewController:navController];
     
     
     self.window.backgroundColor = [UIColor whiteColor];

@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5391768E17357F0F0030865E /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5391768C17357F0F0030865E /* DetailViewController.m */; };
+		5391768F17357F0F0030865E /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5391768D17357F0F0030865E /* DetailViewController.xib */; };
 		53BFDEDC172F71EA004E7485 /* BNRItemStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 53BFDEDB172F71EA004E7485 /* BNRItemStore.m */; };
-		53BFDEDE1730B20C004E7485 /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53BFDEDD1730B20C004E7485 /* HeaderView.xib */; };
 		954B64251728B45C00D9FC55 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 954B64241728B45C00D9FC55 /* UIKit.framework */; };
 		954B64271728B45C00D9FC55 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 954B64261728B45C00D9FC55 /* Foundation.framework */; };
 		954B64291728B45C00D9FC55 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 954B64281728B45C00D9FC55 /* CoreGraphics.framework */; };
@@ -23,9 +24,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5391768B17357F0F0030865E /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		5391768C17357F0F0030865E /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		5391768D17357F0F0030865E /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
 		53BFDEDA172F71EA004E7485 /* BNRItemStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRItemStore.h; sourceTree = "<group>"; };
 		53BFDEDB172F71EA004E7485 /* BNRItemStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRItemStore.m; sourceTree = "<group>"; };
-		53BFDEDD1730B20C004E7485 /* HeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderView.xib; sourceTree = "<group>"; };
 		954B64201728B45C00D9FC55 /* Homepwner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Homepwner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		954B64241728B45C00D9FC55 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		954B64261728B45C00D9FC55 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -91,13 +94,15 @@
 			children = (
 				954B64331728B45C00D9FC55 /* HomepwnerAppDelegate.h */,
 				954B64341728B45C00D9FC55 /* HomepwnerAppDelegate.m */,
+				5391768B17357F0F0030865E /* DetailViewController.h */,
+				5391768C17357F0F0030865E /* DetailViewController.m */,
+				5391768D17357F0F0030865E /* DetailViewController.xib */,
 				955F7B141728BCD800FBD1B5 /* BNRItem.h */,
 				955F7B151728BCD800FBD1B5 /* BNRItem.m */,
 				53BFDEDA172F71EA004E7485 /* BNRItemStore.h */,
 				53BFDEDB172F71EA004E7485 /* BNRItemStore.m */,
 				954B642B1728B45C00D9FC55 /* Supporting Files */,
 				955F7B101728B6DC00FBD1B5 /* ItemsViewController.h */,
-				53BFDEDD1730B20C004E7485 /* HeaderView.xib */,
 				955F7B111728B6DC00FBD1B5 /* ItemsViewController.m */,
 			);
 			path = Homepwner;
@@ -173,7 +178,7 @@
 				954B64371728B45C00D9FC55 /* Default.png in Resources */,
 				954B64391728B45C00D9FC55 /* Default@2x.png in Resources */,
 				954B643B1728B45C00D9FC55 /* Default-568h@2x.png in Resources */,
-				53BFDEDE1730B20C004E7485 /* HeaderView.xib in Resources */,
+				5391768F17357F0F0030865E /* DetailViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,6 +194,7 @@
 				955F7B121728B6DC00FBD1B5 /* ItemsViewController.m in Sources */,
 				955F7B161728BCD800FBD1B5 /* BNRItem.m in Sources */,
 				53BFDEDC172F71EA004E7485 /* BNRItemStore.m in Sources */,
+				5391768E17357F0F0030865E /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
