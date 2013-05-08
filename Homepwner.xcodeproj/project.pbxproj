@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5323CBD9173AC7090048F3EA /* HomepwnerItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5323CBD8173AC7090048F3EA /* HomepwnerItemCell.m */; };
+		5323CBDB173AC7CC0048F3EA /* HomepwnerItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5323CBDA173AC7CC0048F3EA /* HomepwnerItemCell.xib */; };
+		538C73F8173AD28600EC0D35 /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 538C73F6173AD28500EC0D35 /* ImageViewController.m */; };
+		538C73F9173AD28600EC0D35 /* ImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 538C73F7173AD28500EC0D35 /* ImageViewController.xib */; };
 		5391768E17357F0F0030865E /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5391768C17357F0F0030865E /* DetailViewController.m */; };
 		5391768F17357F0F0030865E /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5391768D17357F0F0030865E /* DetailViewController.xib */; };
 		5391769217380C220030865E /* BNRImageStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 5391769117380C220030865E /* BNRImageStore.m */; };
@@ -25,6 +29,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5323CBD7173AC7090048F3EA /* HomepwnerItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomepwnerItemCell.h; sourceTree = "<group>"; };
+		5323CBD8173AC7090048F3EA /* HomepwnerItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomepwnerItemCell.m; sourceTree = "<group>"; };
+		5323CBDA173AC7CC0048F3EA /* HomepwnerItemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomepwnerItemCell.xib; sourceTree = "<group>"; };
+		538C73F5173AD28500EC0D35 /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
+		538C73F6173AD28500EC0D35 /* ImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
+		538C73F7173AD28500EC0D35 /* ImageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageViewController.xib; sourceTree = "<group>"; };
 		5391768B17357F0F0030865E /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		5391768C17357F0F0030865E /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		5391768D17357F0F0030865E /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
@@ -102,6 +112,12 @@
 				5391768D17357F0F0030865E /* DetailViewController.xib */,
 				5391769017380C220030865E /* BNRImageStore.h */,
 				5391769117380C220030865E /* BNRImageStore.m */,
+				5323CBD7173AC7090048F3EA /* HomepwnerItemCell.h */,
+				5323CBDA173AC7CC0048F3EA /* HomepwnerItemCell.xib */,
+				538C73F5173AD28500EC0D35 /* ImageViewController.h */,
+				538C73F6173AD28500EC0D35 /* ImageViewController.m */,
+				538C73F7173AD28500EC0D35 /* ImageViewController.xib */,
+				5323CBD8173AC7090048F3EA /* HomepwnerItemCell.m */,
 				955F7B141728BCD800FBD1B5 /* BNRItem.h */,
 				955F7B151728BCD800FBD1B5 /* BNRItem.m */,
 				53BFDEDA172F71EA004E7485 /* BNRItemStore.h */,
@@ -184,6 +200,8 @@
 				954B64391728B45C00D9FC55 /* Default@2x.png in Resources */,
 				954B643B1728B45C00D9FC55 /* Default-568h@2x.png in Resources */,
 				5391768F17357F0F0030865E /* DetailViewController.xib in Resources */,
+				5323CBDB173AC7CC0048F3EA /* HomepwnerItemCell.xib in Resources */,
+				538C73F9173AD28600EC0D35 /* ImageViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,6 +219,8 @@
 				53BFDEDC172F71EA004E7485 /* BNRItemStore.m in Sources */,
 				5391768E17357F0F0030865E /* DetailViewController.m in Sources */,
 				5391769217380C220030865E /* BNRImageStore.m in Sources */,
+				5323CBD9173AC7090048F3EA /* HomepwnerItemCell.m in Sources */,
+				538C73F8173AD28600EC0D35 /* ImageViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
