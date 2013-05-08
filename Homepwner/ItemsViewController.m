@@ -43,11 +43,18 @@ return self;
 {
     BNRItem *newItem = [[BNRItemStore sharedStore]createItem];
     
-    int lastRow = [[[BNRItemStore sharedStore]allItems]indexOfObject:newItem];
+    DetailViewController *detailViewController = [[DetailViewController alloc]initForNewItem:YES];
     
-    NSIndexPath *ip = [NSIndexPath indexPathForRow:lastRow inSection:0];
+    [detailViewController setItem:newItem];
     
-    [[self tableView] insertRowsAtIndexPaths:[NSArray arrayWithObject:ip] withRowAnimation:UITableViewRowAnimationTop];
+    [detailViewController setDismissBlock:^{[[self tableView]reloadData];}];
+    
+    UINavigationController * navController = [[UINavigationController alloc]initWithRootViewController:detailViewController];
+    
+    [navController setModalPresentationStyle:UIModalPresentationFormSheet];
+    [navController setModalTransitionStyle:UIModalTransitionStyleFlipHorizontal];
+    
+    [self presentViewController:navController animated:YES completion:nil];
 }
 
 
@@ -94,7 +101,7 @@ return self;
 
 - (void)tableView:(UITableView *)tableView didDeselectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    DetailViewController *detaiViewController = [[DetailViewController alloc]init];
+    DetailViewController *detaiViewController = [[DetailViewController alloc]initForNewItem:NO];
     
     NSArray *items = [[BNRItemStore sharedStore]allItems];
     BNRItem *selectedItem = [items objectAtIndex:[indexPath row]];
@@ -107,5 +114,14 @@ return self;
 - (void)viewWillAppear:(BOOL)animated{
     [super viewWillAppear:animated];
     [[self tableView] reloadData];
+}
+
+- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)io
+{
+    if ([[UIDevice currentDevice]userInterfaceIdiom]== UIUserInterfaceIdiomPad){
+        return YES;
+    }else {
+        return (io == UIInterfaceOrientationPortrait);
+    }
 }
 @end
