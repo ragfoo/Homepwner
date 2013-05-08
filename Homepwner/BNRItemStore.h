@@ -20,5 +20,7 @@
 - (void)moveItemsAtIndex:(int)from toIndex:(int)to;
 - (NSArray *)allItems;
 - (BNRItem *)createItem;
+- (NSString *)itemArchivePath;
+- (BOOL)saveChanges;
 
 @end
